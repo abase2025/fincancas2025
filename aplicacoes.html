@@ -382,378 +382,60 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">finança<span>.com</span></div>
+                    <p>Sua plataforma completa para análise de investimentos e aplicações financeiras.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="aplicacoes.html">Aplicações</a></li>
+                        <li><a href="analise.html">Análise de Mercado</a></li>
+                        <li><a href="ferramentas.html">Calculadoras</a></li>
+                        <li><a href="educacao.html">Educação Financeira</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="glossario.html">Glossário Financeiro</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="termos.html">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="contato-info">
+                        <li><i class="fas fa-envelope"></i> contato@financa.com</li>
+                        <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP - Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 finança.com. Todos os direitos reservados.</p>
+                <p class="disclaimer">As informações contidas neste site são apenas para fins educacionais e não constituem recomendação de investimento.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="js/main.js"></script>
     <script src="js/charts.js"></script>
     <script src="js/alertas.js"></script>
     <script src="js/prospeccao.js"></script>
     <script src="js/api-real-time.js"></script>
     <script src="js/aplicacoes.js"></script>
-                {
-                    nome: "LCA Banco do Brasil",
-                    tipo: "renda-fixa",
-                    rentabilidade: "95% do CDI",
-                    rentabilidadeValor: 10.24,
-                    valorMinimo: 100.00,
-                    liquidez: "Vencimento",
-                    risco: "baixo",
-                    recomendacao: "neutro",
-                    id: "lca"
-                },
-                {
-                    nome: "LCI Banco do Brasil",
-                    tipo: "renda-fixa",
-                    rentabilidade: "93% do CDI",
-                    rentabilidadeValor: 10.02,
-                    valorMinimo: 100.00,
-                    liquidez: "Vencimento",
-                    risco: "baixo",
-                    recomendacao: "neutro",
-                    id: "lci"
-                },
-                {
-                    nome: "Tesouro IPCA+",
-                    tipo: "renda-fixa",
-                    rentabilidade: "IPCA + 5,5% a.a.",
-                    rentabilidadeValor: 10.50,
-                    valorMinimo: 30.00,
-                    liquidez: "Diária",
-                    risco: "baixo",
-                    recomendacao: "recomendado",
-                    id: "tesouro"
-                },
-                {
-                    nome: "Tesouro Selic",
-                    tipo: "renda-fixa",
-                    rentabilidade: "100% Selic",
-                    rentabilidadeValor: 10.75,
-                    valorMinimo: 30.00,
-                    liquidez: "Diária",
-                    risco: "baixo",
-                    recomendacao: "neutro",
-                    id: "tesouro-selic"
-                },
-                {
-                    nome: "Tesouro Prefixado",
-                    tipo: "renda-fixa",
-                    rentabilidade: "10,25% a.a.",
-                    rentabilidadeValor: 10.25,
-                    valorMinimo: 30.00,
-                    liquidez: "Diária",
-                    risco: "medio",
-                    recomendacao: "neutro",
-                    id: "tesouro-pre"
-                },
-                {
-                    nome: "Fundo de Ações BB",
-                    tipo: "renda-variavel",
-                    rentabilidade: "15,2% (12 meses)",
-                    rentabilidadeValor: 15.20,
-                    valorMinimo: 200.00,
-                    liquidez: "D+3",
-                    risco: "alto",
-                    recomendacao: "nao-recomendado",
-                    id: "fundo-acoes"
-                },
-                {
-                    nome: "Fundo Multimercado BB",
-                    tipo: "fundos",
-                    rentabilidade: "12,5% (12 meses)",
-                    rentabilidadeValor: 12.50,
-                    valorMinimo: 500.00,
-                    liquidez: "D+1",
-                    risco: "medio",
-                    recomendacao: "neutro",
-                    id: "fundo-multi"
-                },
-                {
-                    nome: "Fundo Imobiliário BB",
-                    tipo: "fundos",
-                    rentabilidade: "8,7% (12 meses)",
-                    rentabilidadeValor: 8.70,
-                    valorMinimo: 1000.00,
-                    liquidez: "D+3",
-                    risco: "medio",
-                    recomendacao: "neutro",
-                    id: "fundo-imob"
-                },
-                {
-                    nome: "Poupança",
-                    tipo: "renda-fixa",
-                    rentabilidade: "6,17% a.a.",
-                    rentabilidadeValor: 6.17,
-                    valorMinimo: 0.01,
-                    liquidez: "Diária",
-                    risco: "baixo",
-                    recomendacao: "nao-recomendado",
-                    id: "poupanca"
-                },
-                {
-                    nome: "Previdência PGBL BB",
-                    tipo: "previdencia",
-                    rentabilidade: "9,8% (12 meses)",
-                    rentabilidadeValor: 9.80,
-                    valorMinimo: 50.00,
-                    liquidez: "D+30",
-                    risco: "medio",
-                    recomendacao: "neutro",
-                    id: "pgbl"
-                },
-                {
-                    nome: "Previdência VGBL BB",
-                    tipo: "previdencia",
-                    rentabilidade: "9,5% (12 meses)",
-                    rentabilidadeValor: 9.50,
-                    valorMinimo: 50.00,
-                    liquidez: "D+30",
-                    risco: "medio",
-                    recomendacao: "neutro",
-                    id: "vgbl"
-                }
-            ];
-
-            // Função para renderizar a tabela
-            function renderizarTabela(dados) {
-                const tbody = document.getElementById('tabela-aplicacoes-body');
-                tbody.innerHTML = '';
-                
-                dados.forEach(aplicacao => {
-                    const tr = document.createElement('tr');
-                    
-                    // Formatar valor mínimo
-                    const valorFormatado = aplicacao.valorMinimo.toLocaleString('pt-BR', {
-                        style: 'currency',
-                        currency: 'BRL'
-                    });
-                    
-                    // Definir ícone e classe para recomendação
-                    let recomendacaoIcone = '';
-                    let recomendacaoClasse = '';
-                    
-                    switch(aplicacao.recomendacao) {
-                        case 'recomendado':
-                            recomendacaoIcone = '<i class="fas fa-thumbs-up"></i>';
-                            recomendacaoClasse = 'recomendacao-verde';
-                            break;
-                        case 'nao-recomendado':
-                            recomendacaoIcone = '<i class="fas fa-thumbs-down"></i>';
-                            recomendacaoClasse = 'recomendacao-vermelha';
-                            break;
-                        default:
-                            recomendacaoIcone = '<i class="fas fa-minus"></i>';
-                            recomendacaoClasse = 'recomendacao-neutra';
-                    }
-                    
-                    tr.innerHTML = `
-                        <td>${aplicacao.nome}</td>
-                        <td>${formatarTipo(aplicacao.tipo)}</td>
-                        <td>${aplicacao.rentabilidade}</td>
-                        <td>${valorFormatado}</td>
-                        <td>${aplicacao.liquidez}</td>
-                        <td><span class="risco-indicador risco-${aplicacao.risco}">${formatarRisco(aplicacao.risco)}</span></td>
-                        <td><div class="recomendacao-indicador ${recomendacaoClasse}">${recomendacaoIcone} ${formatarRecomendacao(aplicacao.recomendacao)}</div></td>
-                        <td>
-                            <div class="acoes-botoes">
-                                <button class="btn-acao btn-detalhes" data-id="${aplicacao.id}">Detalhes</button>
-                                <button class="btn-acao btn-comparar" data-id="${aplicacao.id}">Comparar</button>
-                            </div>
-                        </td>
-                    `;
-                    
-                    tbody.appendChild(tr);
-                });
-                
-                // Adicionar eventos aos botões
-                document.querySelectorAll('.btn-detalhes').forEach(btn => {
-                    btn.addEventListener('click', function() {
-                        const id = this.getAttribute('data-id');
-                        alert(`Detalhes da aplicação ${id} serão exibidos em uma modal.`);
-                    });
-                });
-                
-                document.querySelectorAll('.btn-comparar').forEach(btn => {
-                    btn.addEventListener('click', function() {
-                        const id = this.getAttribute('data-id');
-                        alert(`Aplicação ${id} adicionada à comparação.`);
-                    });
-                });
-            }
-            
-            // Funções auxiliares para formatação
-            function formatarTipo(tipo) {
-                const tipos = {
-                    'renda-fixa': 'Renda Fixa',
-                    'renda-variavel': 'Renda Variável',
-                    'fundos': 'Fundos de Investimento',
-                    'previdencia': 'Previdência'
-                };
-                
-                return tipos[tipo] || tipo;
-            }
-            
-            function formatarRisco(risco) {
-                const riscos = {
-                    'baixo': 'Baixo',
-                    'medio': 'Médio',
-                    'alto': 'Alto'
-                };
-                
-                return riscos[risco] || risco;
-            }
-            
-            function formatarRecomendacao(recomendacao) {
-                const recomendacoes = {
-                    'recomendado': 'Recomendado',
-                    'neutro': 'Neutro',
-                    'nao-recomendado': 'Não Recomendado'
-                };
-                
-                return recomendacoes[recomendacao] || recomendacao;
-            }
-            
-            // Função para filtrar aplicações
-            function filtrarAplicacoes() {
-                const tipo = document.getElementById('filtro-tipo').value;
-                const risco = document.getElementById('filtro-risco').value;
-                const valor = document.getElementById('filtro-valor').value;
-                const liquidez = document.getElementById('filtro-liquidez').value;
-                const rentabilidade = parseFloat(document.getElementById('filtro-rentabilidade').value);
-                const prazo = document.getElementById('filtro-prazo').value;
-                const banco = document.getElementById('filtro-banco').value;
-                const recomendacao = document.getElementById('filtro-recomendacao').value;
-                
-                // Aplicar filtros
-                let aplicacoesFiltradas = aplicacoes.filter(aplicacao => {
-                    // Filtro de tipo
-                    if (tipo !== 'todos' && aplicacao.tipo !== tipo) return false;
-                    
-                    // Filtro de risco
-                    if (risco !== 'todos' && aplicacao.risco !== risco) return false;
-                    
-                    // Filtro de valor mínimo
-                    if (valor !== 'todos') {
-                        const valorMin = aplicacao.valorMinimo;
-                        
-                        switch(valor) {
-                            case 'ate-100':
-                                if (valorMin > 100) return false;
-                                break;
-                            case '100-500':
-                                if (valorMin < 100 || valorMin > 500) return false;
-                                break;
-                            case '500-1000':
-                                if (valorMin < 500 || valorMin > 1000) return false;
-                                break;
-                            case 'acima-1000':
-                                if (valorMin < 1000) return false;
-                                break;
-                        }
-                    }
-                    
-                    // Filtro de liquidez
-                    if (liquidez !== 'todos') {
-                        const liquidezMap = {
-                            'diaria': 'Diária',
-                            'd+1': 'D+1',
-                            'd+3': 'D+3',
-                            'd+30': 'D+30',
-                            'vencimento': 'Vencimento'
-                        };
-                        
-                        if (aplicacao.liquidez !== liquidezMap[liquidez]) return false;
-                    }
-                    
-                    // Filtro de rentabilidade
-                    if (rentabilidade > 0 && aplicacao.rentabilidadeValor < rentabilidade) return false;
-                    
-                    // Filtro de recomendação
-                    if (recomendacao !== 'todos' && aplicacao.recomendacao !== recomendacao) return false;
-                    
-                    // Filtro de banco (simplificado)
-                    if (banco === 'bb' && !aplicacao.nome.includes('BB') && !aplicacao.nome.includes('Banco do Brasil')) return false;
-                    
-                    return true;
-                });
-                
-                // Renderizar tabela filtrada
-                renderizarTabela(aplicacoesFiltradas);
-                
-                // Atualizar contador de resultados
-                document.querySelector('.filtros-titulo h2').textContent = `Filtros Avançados (${aplicacoesFiltradas.length} resultados)`;
-            }
-            
-            // Inicializar tabela com todos os dados
-            renderizarTabela(aplicacoes);
-            
-            // Configurar eventos
-            document.getElementById('aplicar-filtros').addEventListener('click', filtrarAplicacoes);
-            
-            document.getElementById('limpar-filtros').addEventListener('click', function() {
-                // Resetar todos os filtros
-                document.getElementById('filtro-tipo').value = 'todos';
-                document.getElementById('filtro-risco').value = 'todos';
-                document.getElementById('filtro-valor').value = 'todos';
-                document.getElementById('filtro-liquidez').value = 'todos';
-                document.getElementById('filtro-rentabilidade').value = 0;
-                document.getElementById('rentabilidade-valor').textContent = '0%';
-                document.getElementById('filtro-prazo').value = 'todos';
-                document.getElementById('filtro-banco').value = 'todos';
-                document.getElementById('filtro-recomendacao').value = 'todos';
-                
-                // Renderizar tabela completa
-                renderizarTabela(aplicacoes);
-                
-                // Atualizar contador de resultados
-                document.querySelector('.filtros-titulo h2').textContent = `Filtros Avançados (${aplicacoes.length} resultados)`;
-            });
-            
-            // Configurar slider de rentabilidade
-            const sliderRentabilidade = document.getElementById('filtro-rentabilidade');
-            const valorRentabilidade = document.getElementById('rentabilidade-valor');
-            
-            sliderRentabilidade.addEventListener('input', function() {
-                valorRentabilidade.textContent = this.value + '%';
-            });
-            
-            // Atualizar recomendações em tempo real
-            function atualizarRecomendacoes() {
-                // Simular busca de dados em tempo real
-                buscarDadosTempoRealAprimorado().then(() => {
-                    // Atualizar recomendações com base nos dados mais recentes
-                    const ibovespaVariacao = parseFloat(document.getElementById('ibovespa-variacao').textContent);
-                    const dolarVariacao = parseFloat(document.getElementById('dolar-variacao').textContent);
-                    
-                    // Atualizar recomendações com base nos dados
-                    aplicacoes.forEach(aplicacao => {
-                        if (aplicacao.id === 'fundo-acoes') {
-                            if (ibovespaVariacao > 1.0) {
-                                aplicacao.recomendacao = 'recomendado';
-                            } else if (ibovespaVariacao < -1.0) {
-                                aplicacao.recomendacao = 'nao-recomendado';
-                            } else {
-                                aplicacao.recomendacao = 'neutro';
-                            }
-                        }
-                        
-                        if (aplicacao.id === 'tesouro') {
-                            if (dolarVariacao < -0.5) {
-                                aplicacao.recomendacao = 'recomendado';
-                            } else {
-                                aplicacao.recomendacao = 'neutro';
-                            }
-                        }
-                    });
-                    
-                    // Re-renderizar tabela com dados atualizados
-                    filtrarAplicacoes();
-                });
-            }
-            
-            // Atualizar recomendações a cada 30 segundos
-            setInterval(atualizarRecomendacoes, 30000);
-            
-            // Inicializar com primeira atualização
-            atualizarRecomendacoes();
-        });
-    </script>
 </body>
 </html>
